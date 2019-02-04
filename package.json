@@ -1,6 +1,7 @@
 {
   "name": "Electronic-Pomodoro-System2",
   "version": "5.1.0",
+  "homepage": "https://dagjo90.github.io/Electronic-Pomodoro-System2/",
   "description": "",
   "main": "index.js",
   "scripts": {
