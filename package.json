@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -d docs --public-url ./Electronic-Pomodoro-System2"
+    "build": "parcel build index.html -d docs --public-url ./"
   },
   "keywords": [],
   "author": "",
