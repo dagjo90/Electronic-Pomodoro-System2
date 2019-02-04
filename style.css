@@ -1,0 +1,96 @@
+.logo {
+  margin: 25px auto;
+  font-size: 100px;
+  font-family: 'Arcade', cursive;
+  color: red;
+  text-align: center;
+}
+
+.logo:hover {
+  transition: color linear 1s;
+  color: blue;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Arcade";
+  src: url("./components/fonts/arcade/ARCADE.ttf");
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("./components/fonts/digital-7/digital-7.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.center {
+  width: 500px;
+  margin: 100px auto;
+  /*border: 1px solid gray;
+  border-radius: 5px;*/
+  height: 225px;
+}
+
+.center:hover {
+  transition: border linear 3s;
+  border: 1px solid gray;
+}
+
+.center:hover .plus, .center:hover .minus, .center:hover .toggle {
+  transition: background-color linear 2s, color linear 2s;
+  background-color: #F2F1F0;
+  color: gray;
+}
+
+.center:hover .timer {
+  transition: font-size linear 1s, margin linear 1s;
+  font-size: 100px;
+  margin: 62px auto;
+}
+
+.timerbox {
+  display: inline-block;
+}
+
+.timerbox {
+  width: 390px;
+  height: 100%;
+}
+
+.timer {
+  font-size: 200px;
+  font-family: 'Digital-7', cursive;
+  text-align: center;
+  margin: 10px auto;
+  color: red;
+}
+
+.buttons {
+  float: right;
+  width: 100px;
+  display: inline-block;
+}
+
+.plus, .minus, .toggle {
+  font-size: 30px;
+  width: 100px;
+  height: 75px;
+  font-family: 'Digital-7', cursive;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  color: black;
+  background-color: black;
+}
+
+.center .plus:hover, .center .minus:hover, .center .toggle:hover {
+  transition: color linear 0.5s, background-color linear 2s;
+  color: red;
+  background-color: #F2F1F0;
+  cursor: pointer;
+}
