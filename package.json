@@ -1,11 +1,11 @@
 {
   "name": "Electronic-Pomodoro-System2",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -d docs --public-url ./Electronic-Pomodoro-System2"
+    "build": "parcel build index.html -d docs --public-url ./"
   },
   "keywords": [],
   "author": "",

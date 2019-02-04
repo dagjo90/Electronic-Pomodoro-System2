@@ -24,4 +24,4 @@ var e=arguments[3];Object.defineProperty(exports,"__esModule",{value:!0});var n=
 },{"./components/fonts/arcade/ARCADE.ttf":[["ARCADE.57625a74.ttf","a8tt"],"a8tt"],"./components/fonts/digital-7/digital-7.ttf":[["digital-7.2965ed33.ttf","Gr3y"],"Gr3y"]}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./Main.js"));function u(e){return e&&e.__esModule?e:{default:e}}require("./style.css"),r.default.render(e.default.createElement(t.default,null),document.getElementById("pomodoro"));
 },{"react":"HdMw","react-dom":"X9zx","./Main.js":"HRKn","./style.css":"2iMt"}]},{},["Focm"], null)
-//# sourceMappingURL=Electronic-Pomodoro-System2/Electronic-Pomodoro-System2.3b344ab4.map
+//# sourceMappingURL=Electronic-Pomodoro-System2.3b344ab4.map
